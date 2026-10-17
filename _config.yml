@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# site identity
+url: "https://michaelwardini.com"
+baseurl: ""
+title: Michael's World
+author: Michael
+description: Michael's corner of the internet - games, reading, swimming, and comic books!
+avatar: michael-avatar.svg
+email:
+
+# fun facts, used around the site
+age: 11
+youtube_channel: ""
+
+# remove social noise (keep site clean)
+disqus:
+google_analytics:
+
+# needed for builds
+exclude: [vendor]

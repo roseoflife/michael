@@ -1,0 +1,20 @@
+---
+layout: layout
+title: My Videos
+---
+
+<div class="container">
+  <h3>My Videos</h3>
+  <div class="panel panel-default">
+    <div class="panel-body" style="text-align:center;">
+
+      {% if site.youtube_channel and site.youtube_channel != "" %}
+        <p>Check out my YouTube channel!</p>
+        <a class="cta-button" href="{{ site.youtube_channel }}" target="_blank">&#9654;&#65039; Watch my videos</a>
+      {% else %}
+        <p>My YouTube channel link isn't added yet! Set <code>youtube_channel</code> in <code>_config.yml</code> to show it here.</p>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
